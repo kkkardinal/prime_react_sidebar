@@ -1,0 +1,29 @@
+.SettingsButton{
+
+    width: 253px;
+    height: 56.21px;
+    background:white;
+    color: white;
+    border: none;
+  
+}
+
+p{
+    font-family: 'Open Sans', sans-serif; 
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 17px;
+    color: #495057;
+    margin-top: -25px;
+    margin-left: -20px;
+
+    
+
+
+}
+img{
+margin-left: -165px;
+margin-top: 10px;
+margin-right: 10px;
+}

@@ -1,34 +1,16 @@
-import React, {useState} from 'react';
-import StyleSettingsButton from './StyleSettingsButton';
+import React from 'react';
+import './SettingsButton.css';
 
-const SelectSettingsButtonDemo = () => {
-  const [value1, setValue1] = useState('Настройки');
-
-  const options =
-  [
-    {name: 'Настройки', icon: 'home'},
-  ];
-  const justifyTemplate = (option: { icon: string | undefined;
-    name: string | undefined;}) => {
-    return (
-      <i className={option.icon}><p className='main'>Настройки</p></i>
-
-    );
-  };
+export const Button = () => {
   return (
-    <div>
+    <button className="SettingsButton">
 
-      <div className="card">
-
-        <StyleSettingsButton value={value1} options={options}
-          onChange={(e) => setValue1(e.value)}
-          itemTemplate={justifyTemplate}
-          optionLabel='name'
-        />
+      <img src="../../assets/icons/clarity_settings-line.svg" alt="" />
 
 
-      </div>
-    </div>
+      <p> Настройки</p>
+
+
+    </button>
   );
 };
-export default SelectSettingsButtonDemo;

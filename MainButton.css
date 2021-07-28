@@ -1,0 +1,32 @@
+.mainButton{
+    width: 253px;
+    height: 56.21px;
+    background: linear-gradient(91.94deg, #07C2EB 0.29%, #0984DE 100%);
+    color: white;
+    border: none;
+
+  
+}
+
+
+h1{
+
+font-family: 'Open Sans', sans-serif;
+font-style: Bold;
+font-size: 17px;
+line-height: 17px;
+margin-left: -30px;
+margin-bottom: 8px;
+
+
+
+}
+
+.mainImg{
+    position: absolute;
+    margin-left: -100px; 
+    margin-top: 8px;
+    margin-right: 20px;
+
+}
+
