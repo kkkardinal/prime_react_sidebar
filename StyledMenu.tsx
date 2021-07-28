@@ -6,9 +6,11 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 
 const StyledMenu = styled(PanelMenu)`
+
         width: 253px;
-       
-        height: 200px;
+        a.activeMenu {
+          background-color: red;
+      }
         .p-menuitem-icon.asd{
           background-image: url(../../../assets/icons/Vector.svg);
           width: 19px;
@@ -16,6 +18,9 @@ const StyledMenu = styled(PanelMenu)`
           margin-left:10px;
       
         }
+       .p-panelmenu-header-link{
+        z-index:10;
+       }
         .p-menuitem-text{
           margin-left:15px;
         }

@@ -36,11 +36,9 @@ const Menu: React.FC<PanelMenuProps> = (props: PanelMenuProps) => {
   ];
   return (
     <>
-      {/* <span className="p-menuitem-icon asd">
-        <img src="../../../assets/icons/Vector.svg" />
-      </span> */}
+
       <StyledMenu model={itemsForMenu} />
-      {/* <img src="../../" alt="" /> */}
+
     </>
   );
 };
